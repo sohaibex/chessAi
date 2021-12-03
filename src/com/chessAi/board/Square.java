@@ -1,6 +1,7 @@
 package com.chessAi.board;
 
 import com.chessAi.pieces.Piece;
+import com.google.common.collect.ImmutableMap;
 
 import java.util.HashMap;
 import java.util.Map;
