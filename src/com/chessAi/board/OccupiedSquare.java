@@ -4,7 +4,7 @@ import com.chessAi.pieces.Piece;
 
 public class OccupiedSquare extends Square{
 
-    private Piece pieceOnSquare;
+    private final Piece pieceOnSquare;
     OccupiedSquare(int coordinate, Piece pieceOnSquare)
     {
         super(coordinate);
